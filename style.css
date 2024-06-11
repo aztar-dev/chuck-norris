@@ -10,11 +10,27 @@ h1 {
 }
 
 .flex-container img {
-	width: 800px;
+	width: 600px;
 	height: auto;
 }
 
 .text-container {
 	background-color: #f0f0f0;
-	border-radius: 20%;
+	border-radius: 16px;
+	padding: 1rem 3rem;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.joke-text {
+	font-size: 1.1rem;
+}
+
+.btn-container {
+	display: flex;
+	gap: 2rem;
+}
+
+.btn {
+	padding: 0.6rem;
 }
